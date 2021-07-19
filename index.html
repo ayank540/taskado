@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
     <title>Taskdo</title>
 </head>
 
@@ -59,17 +61,22 @@
 
     <!-- Carousel -->
     <hr>
-    <section id="carousel" class="carousel">
-        <!-- <hr> -->
-        <img class="arrow" src="./images/left-arrow.png">
-        <img src="./images/Airbnb Logo.png" alt="Airbnb-logo">
-        <img src="./images/Hubspot Logo.png" alt="Hubspot-logo">
-        <img src="./images/Google Logo.png" alt="Google-logo">
-        <img src="./images/Walmart Logo.png" alt="Walmart-logo">
-        <img src="./images/FedEx Logo.png" alt="FedEx-logo">
-        <img class="arrow" src="./images/right-arrow.png">
-        <!-- <hr> -->
-    </section>
+    <div class="carousel">
+        <div>
+            <a href="javascript:void(0);" class="btnPrevious"><img src="./images/left-arrow.png"></a>
+        </div>
+        <ul>
+            <li><img src="./images/Airbnb Logo.png"></li>
+            <li><img src="./images/Hubspot Logo.png"></li>
+            <li><img src="./images/Google Logo.png"></li>
+            <li><img src="./images/Microsoft Logo.png"></li>
+            <li><img src="./images/Walmart Logo.png"></li>
+            <li><img src="./images/FedEx Logo.png"></li>
+        </ul>
+        <div>
+            <a href="javascript:void(0);" class="btnNext"><img src="./images/right-arrow.png" alt=""></a>
+        </div>
+    </div>
     <hr>
 
     <!-- Features -->
@@ -221,7 +228,8 @@
         </div>
         <div class="headline">
             <h1>Headline</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.
+            </p>
             <a href="#">Get started <img src="./images/right-arrow-purple.png"></a>
         </div>
     </section>
@@ -251,6 +259,5 @@
         </div>
     </section>
 </body>
-<script src="index.js"></script>
 
 </html>
