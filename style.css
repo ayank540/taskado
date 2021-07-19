@@ -13,7 +13,8 @@ body {
 /* Title */
 
 #title {
-    background-image: url("./images/BG.png");
+    background-image: url("./images/BG1.png");
+    background-repeat: no-repeat;
 }
 
 
@@ -74,6 +75,10 @@ a {
 
 /* Navbar end */
 
+.landing-home {
+    margin-bottom: -110px;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -127,52 +132,55 @@ a {
 
 /* Bands */
 
-.left-band-1 {
+.bands {
     position: absolute;
-    width: 420px;
-    height: 116.52px;
-    left: 0px;
-    top: 635.5px;
-    background: #75E3EA;
+    display: flex;
+    right: 0;
+}
+
+.left-bands {
+    position: relative;
+    right: 317px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.left-band-1 {
+    position: relative;
+    top: 258px;
 }
 
 .left-band-2 {
-    position: absolute;
-    width: 420px;
-    height: 116.52px;
-    left: -152px;
-    top: 718.49px;
-    background: #F1E4FF;
+    position: relative;
+    top: 222px;
+}
+
+.right-bands {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    top: 10px;
 }
 
 .right-band-1 {
-    position: absolute;
-    width: 420px;
-    height: 116.52px;
-    left: 988px;
-    top: 448px;
-    /* Brand / Purple 100 */
-    background: #F1E4FF;
+    width: 60%;
+    position: relative;
+    top: 78px;
+    right: 35px;
 }
 
 .right-band-2 {
-    position: absolute;
-    width: 612px;
-    height: 140.81px;
-    left: 828px;
-    top: 508px;
-    /* Brand / Purple 800 */
-    background: #D6B1FF;
+    position: relative;
+    top: 25px;
 }
 
 .right-band-3 {
-    position: absolute;
-    width: 420px;
-    height: 116.52px;
-    left: 1260px;
-    top: 541.49px;
-    /* Brand / Turquoise 800 */
-    background: #75E3EA;
+    position: relative;
+    bottom: 83px;
 }
 
 
@@ -186,6 +194,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 130px 0 130px;
 }
 
 hr {
@@ -194,7 +203,7 @@ hr {
     height: 1px;
 }
 
-.carousel hr {
+.arrow {
     margin: 35px;
 }
 
